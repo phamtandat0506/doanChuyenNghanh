@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Giỏ Hàng</title>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<div class="main">
+
+  <nav class="navbar navbar-inverse bgr-blue">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand fs-50" href=""> Đ.DellShop </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#"><i class="fas fa-home"></i> Trang Chủ</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fas fa-laptop"></i> Sản Phẩm <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#"><i class="fas fa-headset"></i> Gaming</a></li>
+              <li><a href="#"><i class="fas fa-feather"></i> Mỏng Nhẹ</a></li>
+              <li><a href="#"><i class="fas fa-briefcase"></i> Văn Phòng</a></li>
+              <li><a href="#"><i class="fas fa-laptop-code"></i> Kỹ Thuật & Đồ Họa</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fab fa-servicestack"></i> Dịch Vụ</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-edit"></span> Các Giải Pháp</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Giỏ Hàng</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Đăng Ký</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng Nhập</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row bgr-white">
+
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" >
+      <div class="list-group img mrl-5 mr-10 mr-top">
+        <a class="list-group-item"><i class="fas fa-laptop"></i> Loại Laptop</a>
+        <a href="#" class="list-group-item"><i class="fas fa-headset"></i> Gaming</a>
+        <a href="#" class="list-group-item"><i class="fas fa-feather"></i> Mỏng Nhẹ</a>
+        <a href="#" class="list-group-item"><i class="fas fa-briefcase"></i> Văn Phòng </a>
+        <a href="#" class="list-group-item"><i class="fas fa-laptop-code"></i> Kỹ Thuật & Đồ Họa</a>
+      </div>
+      <div class="col-sm-12">
+        <!-- <div class="well w-100">
+          <h4>Users</h4>
+          <p>1 Million</p> 
+        </div> -->
+      </div>
+    </div>
+
+    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ">
+      
+      <table class="table table-hover">
+          <thead>
+              <tr>
+                <th>STT</th>
+                <th>Tên Sản Phẩm</th>
+                <th>Hình Ảnh</th>
+                <th>Tổng Giá</th>
+                <th>Hành Động</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>1</td>
+                  <td>Lap top core i7</td>
+                  <td>
+                      <img src="./img/gaming/4.jpg" class="pro-lq" alt="">
+                  </td>
+                  <td>23000000đ</td>
+                  <td></td>
+              </tr>
+          </tbody>
+      </table>
+      
+    </div>
+
+    
+
+  </div>
+
+  <footer class="container-fluid text-center">
+    <div class="wel">
+        
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <p><i class="fab fa-servicestack"></i> Dịch Vụ</p>
+                <p><i class="fas fa-phone"></i> Liên hệ</p>
+                <p><i class="far fa-question-circle"></i> Thắc mắc</p>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <p><i class="fab fa-facebook"></i> Facebook</p>
+                <p><i class="fab fa-instagram"></i> Instagram</p>
+                <p><i class="fab fa-twitter"></i> Twitter</p>
+                <p><i class="fab fa-youtube"></i>Youtube</p>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <p><i class="fas fa-hands-helping"></i> Trợ giúp</p>
+                <p><i class="far fa-address-card"></i> Về chúng tôi</p>
+            </div>
+        </div>
+        
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
